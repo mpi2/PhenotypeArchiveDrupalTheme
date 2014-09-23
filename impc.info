@@ -1,0 +1,19 @@
+name = IMPC
+description = IMPC Theme
+package = Core
+version = 2.0
+core = 7.x
+
+; all css files are added by template.php
+
+; all js files are added by template.php
+
+; regions
+regions[contenttop] = Above Content
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[pinned] = Pinned
+regions[mainnavi] = Main Navigation
+regions[usernavi] = User Navigation
+regions[footer] = Footer

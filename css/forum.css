@@ -1,0 +1,111 @@
+/**
+ * Copyright © 2011-2014 EMBL - European Bioinformatics Institute
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License.  
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/* IMPC Forum style */
+
+/* small buttons */
+.af-button-small                { background: #eee; color: #444; display: inline-block; line-height: 1; padding: 0.2em 0.4em; text-decoration: none; margin-right: 0.5em; }
+.af-button-small:hover          { background: #444; color: #fff; text-decoration: none;  }
+
+/* smaller font for some tds and tags */
+.af-button-small,
+.topic-post-count,
+td.views-field-title,
+td.forum-number-topics,
+td.forum-number-posts,
+td.forum-last-reply,
+td.views-field-comment-count,
+td.views-field-last-updated       { font-size: 0.9em; }
+
+table.sticky-header,
+//.forum-table-superheader        { display: none; }
+
+/* Primary tabs on forum pages */
+.page-forum .tabs.primary       { border-bottom: #ddd 1px solid; margin-bottom: 2em; }
+
+/* Forum tables */
+table.forum-table               { margin-bottom: 2em; }
+.forum-table td                 { vertical-align: middle; }
+td.views-field-title .username,
+td.views-field-title            { color: #aaa; }
+a.topic-title,
+span.forum-topic-title          { font-size: 1.3em; }
+
+tr.even td.forum-list-icon-default .forum-list-icon-wrapper span,
+tr.odd td.forum-list-icon-default .forum-list-icon-wrapper span { }
+
+.forum-table .marker            { font-size: 0.8em; background: #EF7B0B; color: #fff; display: inline-block; padding: 0em 0.3em; margin-left: 1em; }
+
+/* New topic button */
+.forum-node-create-links        { float: none; width: 100%; margin: 2em 0; display: none; }
+.forum-node-create-links .forum-add-node { float: none; }
+.forum-node-create-links-top    { margin-top: 0; padding: 0; display: block; }
+.not-logged-in .forum-node-create-links { display: none; }
+
+/* Forum page */
+.forum-table-wrap,
+.page-forum #forum .view-content { padding-bottom: 3em; }
+.view-advanced-forum-topic-list  { border-bottom: #ddd 1px solid; }
+
+/* Forum Legend */
+.forum-topic-legend             { display: none; }
+
+/* Forum sort */
+#forum-sort .container-inline   { display: block; }
+#forum-sort .form-item          { float: left; margin-right: 0.5em; }
+#forum-sort label               { display: block; }
+#forum-sort .form-submit        { padding: 0.2em 0.4em !important; margin-top: 1.7em !important; }
+
+/* Forum Forms */
+#advanced-forum-forum-topic-list-sort-form,
+#advanced-forum-forum-topic-list-sort-form .form-item,
+.page-forum .form-item          { width: auto; padding: 0.5em 0 !important; }
+#advanced-forum-forum-topic-list-sort-form,
+.page-forum form                { padding: 0 !important; border: none; }
+
+/* Discussion */
+div.forum-post                  { border: #ddd 1px solid; margin-bottom: 2em; }
+.forum-post-info                { display: block; background: #eee; }
+.forum-post-info .forum-post-number { visibility: hidden; }
+.forum-post,
+.forum-topic-header             { width: 100%; display: block; margin-bottom: 2em; }
+.forum-post-panel-sub           { width: 19%; float: left; }
+.forum-post-wrapper .forum-post-panel-main,
+.forum-post-panel-main          { width: 78%; padding-left: 2%; padding-bottom: 0.5em; border-left: #ddd 1px solid; }
+.forum-post-title,
+.forum-post-content             { padding: 0.5em 1em 0.5em 0 !important; }
+.forum-post-footer              { display: block; border-top: #ddd 1px solid; line-height: 1; }
+.forum-post-footer .forum-jump-links { display: none; }
+.forum-post-links               { float: right; margin: 0 1em 0 0; }
+.forum-post .post-title,
+.forum-post-title               { font-weight: 600 !important; padding-left: 0;  }
+
+/* Comments */
+.title.comment-form             { margin-top: 2em; }
+.filter-guidelines,
+#edit-comment-body-und-0-format { padding: 0; margin: 0; }
+.filter-wrapper .form-item      { padding: 0.5em 0; }
+.filter-help                    { display: none; }
+#edit-comment-body-und-0-value  { }
+
+/* Forum statistics and legend */
+.forum-list-icon-legend         { display: none; }
+#forum-statistics               { margin-top: 2em; display: none; }
+#forum-statistics-statistics-header,
+#forum-statistics-header        { font-weight: 600; margin-top: 1em; }
+#forum-statistics-header, 
+.forum-statistics-sub-header,
+.forum-statistics-sub-body      { padding: 0.1em 0; font-size: 0.9em; }     
